@@ -42,7 +42,7 @@
 
                         <td>
                             <a href="?controller=Users&method=Create" class="btn btn-success">CREAR</a>
-                            <a href="?controller=Users&method=update&id=<?php echo $user->id_users?>" class="btn btn-primary">EDITAR</a>
+                            <a href="?controller=Users&method=edit&id=<?php echo $user->id_users?>" class="btn btn-primary">EDITAR</a>
                             <a href="?controller=Users&method=destroy&id=<?php echo $user->id_users?>" class="btn btn-danger">ELIMINAR</a>
                         </td>
                     </tr>

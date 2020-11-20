@@ -39,7 +39,7 @@
                 $stm->bindParam(1, $data['names'], PDO::PARAM_STR);
                 $stm->bindParam(2, $data['last_names'], PDO::PARAM_STR);
                 $stm->bindParam(3, $data['email'], PDO::PARAM_STR);
-                $stm->bindParam(4, $id, PDO::PARAM_STR);
+                $stm->bindParam(4, $id, PDO::PARAM_INT) ;
                 $stm->execute();
             } catch (Exception $e){
                 die($e->getMessage());

@@ -21,7 +21,7 @@
 </header>
 
 <section>
-    <form action="?controller=Users&m=update&id=<?php echo $user->id_users?>" method="post">
+    <form action="?controller=Users&method=update_user&id=<?php echo $user->id_users?>" method="post">
         <div class="container mt-5">
             <div class="col-md-8 ml-5"">
             <h3 class="mb-4">Aquí podrás actualizar tus credenciales como Usuario de ANLAU</h3>
