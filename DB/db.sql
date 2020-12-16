@@ -41,7 +41,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id_users`, `names`, `last_names`, `email`) VALUES
 (1, 'Laura Camila xzz', 'Páez Barbosa', 'lcpaez061@misena.edu.co'),
 (3, 'Flor Marleny', 'Barbosa', 'marlen1977@hotmail.com'),
-(4, 'Jhefferson Esteban', 'Martínez Páez', 'martinezjhefferson@gmail.com'),
+(4, 'Jhefferson Esteban', 'Martínez Páez', 'martinezjhefferson@gmail.com');
 
 
 --
